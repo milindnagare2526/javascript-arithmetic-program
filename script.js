@@ -1,32 +1,19 @@
-
-
-// Arithmetic Operations
 let a = 10;
 let b = 5;
 
-console.log("Arithmetic Operations:");
-console.log("Addition:", a + b);
-console.log("Subtraction:", a - b);
-console.log("Multiplication:", a * b);
-console.log("Division:", a / b);
-console.log("Modulus:", a % b);
+document.write("Addition: " + (a+b) + "<br>");
+document.write("Subtraction: " + (a-b) + "<br>");
+document.write("Multiplication: " + (a*b) + "<br>");
+document.write("Division: " + (a/b) + "<br>");
 
-
-// Conditional Statement
 let number = 7;
 
-console.log("\nConditional Statement:");
-
-if (number % 2 === 0) {
-    console.log(number + " is Even");
-} else {
-    console.log(number + " is Odd");
+if(number % 2 === 0){
+    document.write("Even Number<br>");
+}else{
+    document.write("Odd Number<br>");
 }
 
-
-// Loop Example
-console.log("\nLoop Example (Printing numbers 1 to 5):");
-
-for (let i = 1; i <= 5; i++) {
-    console.log("Number:", i);
+for(let i=1;i<=5;i++){
+    document.write("Number: " + i + "<br>");
 }
